@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&family=Poppins:ital,wght@0,400;0,500;1,600&family=Protest+Revolution&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --light: #eeeeee;
+  --dark: #101010;
+  --bg-color: #000;
+  --btn-color: #0886fe;
+  --btn-color: #f66c3b;
+  --btn-hover: #f8916c;
+  --text-color: #ffffff;
+  --para-color: #838485;
+  --cer-font-color: #ed165a;
+  --cer-bg-color: #ffe4e6;
+  --font-family: "Poppins";
+}
+
+body {
+  background-color: var(--light);
+  color: var(--dark);
+}
+
+* {
+  font-family: var(--font-family);
+}
+
+.dark {
+  background-color: var(--dark);
+  color: var(--light);
+}
+::-webkit-scrollbar {
+  width: 0.5rem;
+}
+::-webkit-scrollbar-track {
+  background: #cecece;
+}
+::-webkit-scrollbar-thumb {
+  background: #0886fe;
+  border-radius: 5px;
+}

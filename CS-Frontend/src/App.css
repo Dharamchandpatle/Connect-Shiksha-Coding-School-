@@ -1,0 +1,14 @@
+.shadow-myShadow1 {
+  box-shadow: 2px -2px 0 0 rgba(0, 0, 0, 0.1);
+}
+
+.shadow-myShadow2 {
+  box-shadow: -2px -2px 0 0 rgba(0, 0, 0, 0.1);
+}
+
+@media screen and (max-width: 768px) {
+  .styles-module_whatsappButton__tVits.floating-whatsapp-button {
+    bottom: 5rem;
+    right: 1rem;
+  }
+}
